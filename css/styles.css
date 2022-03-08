@@ -2,6 +2,23 @@ body {
   background: #f5d9d5;
 }
 
+.content h2 {
+  color: #ea1c2c;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.content p {
+  color: #ea1c2c;
+  font-weight: 100;
+  font-size: 1.13rem;
+  line-height: 2;
+}
+
+.eachBlockRow {
+  margin-top: 100px;
+}
+
 #mainNavbar {
   font-size: 1.2rem;
   font-weight: 100;
@@ -26,12 +43,12 @@ body {
 
 #headingGroup h1 {
   font-weight: 100;
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   #headingGroup h1 {
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
